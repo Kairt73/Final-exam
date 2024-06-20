@@ -1,0 +1,85 @@
+.carts {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+
+.cart {
+    background-color: #68c9ba2e;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 50px;
+    max-width: 700px;
+    right: -200px;
+}
+
+.cart_purple {
+    background-color: #9b69e256;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 50px;
+    max-width: 700px;
+    right: -200px;
+}
+
+.cart_pink {
+    background-color: #f063b84f;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 50px;
+    max-width: 700px;
+    right: -200px;
+}
+
+.cart_blue {
+    background-color: #6378f03a;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 50px;
+    max-width: 700px;
+    right: -200px;
+}
+
+.cart_image {
+    position: absolute;
+    left: -100px;
+    padding-top: 120px;
+}
+
+.cart_content {
+    display: flex;
+    gap: 30px;
+}
+
+.cart_text {
+    max-width: 300px;
+    margin-left: 70px;
+    padding: 50px 120px 50px 150px;
+}
+
+.cart_title {
+    font-family: 'Helvetica-regular';
+    font-size: 28px;
+    color: #212353;
+}
+
+.cart_paragraph {
+    font-family: 'Avenir-book';
+    font-size: 20px;
+    color: #4B5D68;
+    margin-top: 40px;
+}
+
+.cart_button {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.learn {
+    font-family: 'Avenir-heavy';
+    font-size: 20px;
+    color: #212353;
+}

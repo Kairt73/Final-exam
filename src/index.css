@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Avenir-book';
+  src: url("../src/assets/Fonts/Avenir/Avenir\ Book.ttf");
+  font-weight: 400px;
+}
+
+@font-face {
+  font-family: 'Avenir-heavy';
+  src: url("../src/assets/Fonts/Avenir/Avenir\ Heavy.ttf");
+  font-weight: 600px;
+}
+
+@font-face {
+  font-family: 'Helvetica-regular';
+  src: url("../src/assets/Fonts/Helvetica/Helvetica-Bold.ttf");
+  font-weight: 600px;
+}
+
+@font-face {
+  font-family: 'Helvetica-bold';
+  src: url("../src/assets/Fonts/Helvetica/Helvetica-Bold.ttf");
+  font-weight: 700px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
